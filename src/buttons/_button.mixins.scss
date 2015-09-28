@@ -1,16 +1,16 @@
 /* BUTTON */
-$button-min-width: 64px !default;
-$button-height: 36px !default;
-$button-padding: 8px !default;
-$button-margin: 4px !default;
-$button-border-radius: 2px !default;
+$button-min-width: rem(64px) !default;
+$button-height: rem(36px) !default;
+$button-padding: rem(8px) !default;
+$button-margin: rem(4px) !default;
+$button-border-radius: rem(2px) !default;
 
-$button-fab-size: 56px !default;
-$button-fab-size-mini: 40px !default;
-$button-fab-font-size: 24px !default;
+$button-fab-size: rem(56px) !default;
+$button-fab-size-mini: rem(40px) !default;
+$button-fab-font-size: rem(24px) !default;
 
-$button-icon-size: 32px !default;
-$button-icon-size-mini: 24px !default;
+$button-icon-size: rem(32px) !default;
+$button-icon-size-mini: rem(24px) !default;
 
 @mixin basic-button(){
   background: transparent;
@@ -23,7 +23,7 @@ $button-icon-size-mini: 24px !default;
   padding: 0 $button-padding;
   display: inline-block;
   font-family: $preferred_font;
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 500;
   text-transform: uppercase;
   line-height: 1;

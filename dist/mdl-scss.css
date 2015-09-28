@@ -106,15 +106,15 @@
 .mdl-button {
   background: transparent;
   border: none;
-  border-radius: 2px;
+  border-radius: 0.125rem;
   color: #222222;
   position: relative;
-  height: 36px;
-  min-width: 64px;
-  padding: 0 8px;
+  height: 2.25rem;
+  min-width: 4rem;
+  padding: 0 0.5rem;
   display: inline-block;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   text-transform: uppercase;
   line-height: 1;
@@ -126,7 +126,7 @@
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  line-height: 36px;
+  line-height: 2.25rem;
   vertical-align: middle;
   color: #222222;
   /*------------------------------------*  RAUSED Button
@@ -134,11 +134,11 @@
   .mdl-button::-moz-focus-inner {
     border: 0; }
   .mdl-button:hover {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.2), 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.12); }
   .mdl-button:focus:not(:active) {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.2), 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.12); }
   .mdl-button:active {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.2), 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.12); }
   .mdl-button:hover {
     background-color: rgba(34, 34, 34, 0.08); }
   .mdl-button:focus:not(:active) {
@@ -186,15 +186,15 @@
     .mdl-button--error:active {
       background-color: rgba(244, 67, 54, 0.25); }
   .mdl-button--raised {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.14), 0 0.1875rem 0.0625rem -0.125rem rgba(0, 0, 0, 0.2), 0 0.0625rem 0.3125rem 0 rgba(0, 0, 0, 0.12);
     color: #fefdfb;
     background-color: #222222; }
     .mdl-button--raised:hover {
-      box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }
+      box-shadow: 0 0.25rem 0.3125rem 0 rgba(0, 0, 0, 0.14), 0 0.0625rem 0.625rem 0 rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.2); }
     .mdl-button--raised:focus:not(:active) {
-      box-shadow: 0 0 6px rgba(0, 0, 0, 0.18), 0 6px 14px rgba(0, 0, 0, 0.36); }
+      box-shadow: 0 0 0.375rem rgba(0, 0, 0, 0.18), 0 0.375rem 0.875rem rgba(0, 0, 0, 0.36); }
     .mdl-button--raised:active {
-      box-shadow: 0 0 6px rgba(0, 0, 0, 0.18), 0 6px 14px rgba(0, 0, 0, 0.36); }
+      box-shadow: 0 0 0.375rem rgba(0, 0, 0, 0.18), 0 0.375rem 0.875rem rgba(0, 0, 0, 0.36); }
     .mdl-button--raised:hover {
       background-color: rgba(34, 34, 34, 0.82); }
     .mdl-button--raised:focus:not(:active) {
