@@ -4,7 +4,7 @@
   "description": "Scss only version of material design light",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "node --harmony_destructuring `which gulp`"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,16 @@
   },
   "homepage": "https://github.com/tomatau/mdl-scss#readme",
   "dependencies": {
+    "gulp-sass": "^2.0.4",
+    "require-dir": "^0.3.0",
     "tao-scss": "^0.2.0"
+  },
+  "devDependencies": {
+    "color-util-logs": "0.0.1",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-util": "^3.0.6",
+    "http-server": "^0.8.5"
   }
 }
