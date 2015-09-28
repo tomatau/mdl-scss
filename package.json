@@ -1,0 +1,25 @@
+{
+  "name": "mdl-scss",
+  "version": "0.1.0",
+  "description": "Scss only version of material design light",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomatau/mdl-scss.git"
+  },
+  "keywords": [
+    "scss",
+    "mdl",
+    "material-design-lite",
+    "material-design"
+  ],
+  "author": "Thomas `tomatao` Hudspith-Tatham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomatau/mdl-scss/issues"
+  },
+  "homepage": "https://github.com/tomatau/mdl-scss#readme"
+}
